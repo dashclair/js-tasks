@@ -1,9 +1,7 @@
 function sayHello(name) {
-    if (name === `Mark`) {
-        const hello = `Hi`;
-        return (hello + `,` + ` ` + name + `!`)
-    } const hello = `Hello`;
-    return (hello + `,` + ` ` + name + `!`)
+    if (name == `Mark`) {
+        return `Hi, Mark!`
+    } return `Hello, ${name}!`
 };
 
 console.log(sayHello(`Mark`));

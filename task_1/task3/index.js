@@ -3,6 +3,6 @@
 function min(a, b) {
     if (a > b) {
         return b;
-    } else return a
+    } return a
 }
 console.log(min(1, 1))
